@@ -1,0 +1,179 @@
+@charset "gb2312";
+/* CSS Document */
+
+BODY{
+	margin:0px;
+	padding:0px;
+	FONT-SIZE: 12px;
+	FONT-FAMILY:  "宋体", "Verdana", "Arial", "Helvetica", "sans-serif";
+
+}
+
+td, a{
+        FONT-FAMILY:  "宋体", "Verdana", "Arial", "Helvetica", "sans-serif";
+	FONT-SIZE: 9pt;
+       
+}
+
+img{border:none;}
+
+A:link {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+
+
+input, select, textarea, option{
+        FONT-FAMILY:  "宋体", "Verdana", "Arial", "Helvetica", "sans-serif";
+	border: 1px solid #999999;
+	background-color: #FFFFFF;
+	FONT-SIZE: 9pt;
+}
+
+
+
+/*admin  left*/
+.C_Left_03{ background: url("images/JiSu_Admin_30.gif") left repeat-y;}
+.C_Left_01{ background: url("images/JiSu_Admin_23.gif") top repeat-x;}
+.C_Left_02{ background: url("images/JiSu_Admin_49.gif") bottom repeat-x;}
+.C_Left_04{ background: url("images/JiSu_Admin_32.gif") right repeat-y;}
+.Left_Item01_Title{padding:0px 0 0 10px;color:#fff;font-weight:bold;}
+.Left_Item01 {background:url("images/MenuBg.gif") no-repeat; height:27px; display:block; width:100%; padding:0px 0 0 10px;}
+.Left_Item01 a:link,.Left_Item01 a:visited{ color:#fff;font-weight:bold; }
+.Left_Item02{padding:4px 3px 4px 10px; background: url("images/icon02.gif") repeat-x bottom #f4f4f4; line-height:20px; font-size:12px;}
+.C_Headerbg{ background:url("images/JiSu_Admin_05.gif") repeat-x;}
+.C_HeaderLeft{ background: url("images/JiSu_Admin_03.gif") no-repeat left; height:51px; width:12px;}
+.C_HeaderRight{ background: url("images/JiSu_Admin_06.gif") no-repeat right; height:51px; width:12px;}
+.C_HeaderMiddle{  vertical-align:middle; color:#fff;}
+.C_HeaderMiddle a,.C_HeaderMiddle a:link,.C_HeaderMiddle a:visited{ color:#fff;}
+
+
+
+.foot  {
+background:url("images/ws_17.jpg") no-repeat; width:960px;
+height:29px; 
+}
+
+.leftmenu
+{
+   background:url("images/ws_08.jpg") no-repeat; width:700px; height:300px;
+}
+.rightmenu
+{
+   background:url("images/ws_10.jpg") no-repeat; width:251px; height:184px;
+}
+
+.styleEnglish
+{
+  color:#ed7b0b;
+  font-size:18px;
+  font-weight:bold;
+  font-family:"幼圆";
+}
+.style1
+{
+ 
+  font-size:13px;
+  font-weight:bold;
+  color:#FFFFFF;
+
+}
+.style2
+{
+  color:#d12d5a;
+  font-size:13px;
+  font-weight:bold;  
+}
+
+.styledh
+{
+  color:#e00029;
+  font-size:13px;
+  font-weight:bold;  
+}
+
+.stylezfgb
+{
+  color:#ed7b0b;
+  font-size:13px;
+  font-weight:bold;
+  font-family:"幼圆";
+}
+.td1
+{
+  border-right:1px solid #cccccc;
+  border-bottom:1px solid #cccccc;
+
+}
+.td2
+{
+  border-right:1px solid #cccccc;
+ 
+}
+#header
+{
+   background:url("images/ws_01.jpg") no-repeat; width:1024px; height:125px; position:relative;
+}
+
+#menu{ height:37px; float:right; line-height:37px;}
+#menu ul{list-style: none; margin-left:0px;padding-left:0px;padding-right:40px; margin-top:0px;}
+#menu ul li {float: left;position:relative;padding-left:22px; padding-right:22px; line-height:37px; }
+#menu ul li a{display: block;text-align:center;}
+#menu ul li a:hover,
+#menu ul li a:active,
+#menu ul a.current,
+#menu ul a.current:hover,
+#menu ul a.current:active {color:#FF9900; text-decoration: none;}
+#menu ul li.lastItem { border-width:0px; } 
+#menu ul li.nav_index{
+	position:relative;
+	z-index:1;
+}
+
+
+
+.wtbackground
+{
+background:url("images/ny_25.gif") no-repeat; width:227px; height:76px;
+}
+
+.probackground
+{
+background:url("images/1_03.gif") no-repeat; width:103px; height:86px;
+}
+
+.menubackground
+{
+background:url("images/ny_10.jpg") no-repeat; width:184px; height:46px;
+}
+
+.sortbackground
+{
+background:url("images/ny_21.jpg") no-repeat; width:185px; height:35px;
+}
+
+.linkbackground
+{
+background:url("images/ny_17.jpg") no-repeat; width:185px; height:33px;
+}
+
+.detailbackground
+{
+background:url("images/ny_13.jpg") no-repeat; width:741px; height:53px;
+}
+.lindaobackground
+{
+  background:url("images/q_03.gif") no-repeat; width:960px; height:251px;
+}
+.rongyubackground
+{
+  background:url("images/_06.gif") no-repeat; width:960px; height:281px;
+}
